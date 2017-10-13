@@ -1,4 +1,3 @@
-# mydev
 This is my own dev enviroment
 
 sudo apt-get update
