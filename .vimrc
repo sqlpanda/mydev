@@ -1,7 +1,5 @@
 "去掉vi的一致性"
 set nocompatible
-"顯示行號"
-"set number"
 " 隱藏捲動條"    
 set guioptions-=r 
 set guioptions-=L
