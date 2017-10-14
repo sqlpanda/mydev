@@ -1,6 +1,6 @@
 This is my own dev enviroment
 
-#Initial Setup
+# Initial Setup
             sudo apt-get update
             sudo apt-get install tmux
             sudo apt-get install git
@@ -14,7 +14,8 @@ if vim does not have python support ( vim --version) recomplile vim for it.
             libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
             libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev \
             python3-dev ruby-dev lua5.1 lua5.1-dev libperl-dev git cmake
-            sudo apt-get remove vim vim-runtime gvim vim-tiny vim-common vim-gui-common vim-nox
+  
+			sudo apt-get remove vim vim-runtime gvim vim-tiny vim-common vim-gui-common vim-nox
 
 
             cd ~
