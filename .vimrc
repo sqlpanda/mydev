@@ -1,5 +1,3 @@
-"去掉vi的一致性"
-set nocompatible
 " 隱藏捲動條"    
 set guioptions-=r 
 set guioptions-=L
@@ -32,5 +30,35 @@ set whichwrap+=<,>,h,l
 set autoread
 set cursorline        "突出顯示當前行"
 set cursorcolumn        "突出顯示當前列"
+
+"Python Indentation"
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set autoindent
+
+
+"For Vundle"
+set nocompatible              " required
+filetype off                  " required
+
+"set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+	" alternatively, pass a path where Vundle should install plugins
+	"call vundle#begin('~/some/path/here')
+
+	" let Vundle manage Vundle, required
+	Plugin 'gmarik/Vundle.vim'
+	Plugin 'Valloric/YouCompleteMe'
+
+	" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+
+
+	" All of your Plugins must be added before the following line
+	call vundle#end()            " required
+	filetype plugin indent on    " required
+
 
 
