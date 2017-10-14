@@ -34,7 +34,7 @@ if vim does not have python support ( vim --version) recomplile vim for it.
             make VIMRUNTIMEDIR=/usr/local/share/vim/vim80
             sudo apt-get install checkinstall
             cd ~/vim
-            sudo checkinstall
+			sudo checkinstall
 			sudo update-alternatives --install /usr/bin/editor editor /usr/local/bin/vim 1
 			sudo update-alternatives --set editor /usr/local/bin/vim
 			sudo update-alternatives --install /usr/bin/vi vi /usr/local/bin/vim 1
@@ -44,6 +44,7 @@ if vim does not have python support ( vim --version) recomplile vim for it.
 
 
 # Install YouCompleteMe
+
 		cd ~/.vim/bundle/YouCompleteMe
 		./install.py --clang-completer
 
